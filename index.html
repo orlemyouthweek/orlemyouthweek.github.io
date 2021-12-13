@@ -19,6 +19,31 @@
     rel="stylesheet"
     href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
   />
+  <style>
+    a:hover {
+      color: rgb(92, 34, 226);
+    }
+
+    .yt-btn {
+      background-color: rgb(91, 136, 219);
+      color: #fff;
+      padding: 20px;
+      border-radius: 10px;
+      text-decoration: none;
+      transition: 500ms;
+      box-shadow: 0 0 30px rgb(78, 132, 212);
+    }
+
+    .yt-btn:hover {
+      background-color: #2c2c2c;
+      color: #fff;
+      font-size: large;
+      padding: 20px;
+      border-radius: 10px;
+      text-decoration: none;
+      transition: 500ms;
+    }
+  </style>
 </head>
 
 <body class="bg-white text-center d-flex h-100 animate__animated animate__fadeIn" style="transition: 0.7s;">
@@ -32,7 +57,7 @@
 
   <div class="container d-flex p-3 mx-auto flex-column">
     <header class="mb-auto">
-      <h4 class="float-left">OYW 2021</h4>
+      <h4 class="float-left">#OYW</h4>
       <nav class="nav justify-content-center float-right">
 
         <div class="nav-link">
@@ -47,18 +72,19 @@
       </nav>
     </header>
 
-    <main role="main">
-      <img class="animate__animated animate__pulse animate__slow" src="./logo_512.png" alt="ourladyoflourdeschurchorlem" width="150px" height="auto"/>
+    <main role="main" style="height: 100vw;">
+      <img class="animate__animated animate__pulse animate__slow" id="logo" src="./logo_salmon.png" alt="ourladyoflourdeschurchorlem" width="150px" height="auto"/>
 
       <br><br>
-      <p class="h1">Orlem Youth Week 2021 Livestream</p>
-      <br>
-      <iframe width="80%" height="80% " src="https://paravision.livebox.co.in/livebox/player/?chnl=Encoder" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-    <footer class="mt-auto">
-	    <p><a class="nav-link active" href="https://www.ourladyoflourdeschurchorlem.com/" target="_blank">Copyright &copy; OYW, Our Lady of Lourde, Orlem</a></p>
-    </footer>
+      <p class="h1">Orlem Youth Week</p>
+      <br><br>
+      <a class="yt-btn" href="https://youtube.com/playlist?list=PLPPk20Ob9KZaLebTIpeus9Pt5P_BLN7KA">OYW 2021 YOUTUBE</a>
+      <!-- <iframe width="80%" height="80% " src="https://www.youtube.com/embed/zHwemugKP9A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
   </main>    
+  
+  <footer class="mt-auto">
+    <a class="nav-link active" href="https://www.ourladyoflourdeschurchorlem.com/" target="_blank">Copyright &copy; OYW, Our Lady of Lourdes Church, Orlem</a>
+  </footer>
 
   </div>
 
